@@ -2,6 +2,7 @@
   "name": "bunbun",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://marybethkery.com/SSUI-Homework-4/",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
