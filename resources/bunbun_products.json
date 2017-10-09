@@ -1,0 +1,61 @@
+{
+  "cinnamon rolls":
+  [
+    {
+      "flavor": "Maple Apple Pecan",
+      "pricePerRoll": 4.50
+    },
+    {
+      "flavor": "Bacon",
+      "pricePerRoll": 4.50
+    },
+    {
+      "flavor": "Walnut",
+      "pricePerRoll": 4.50
+    },
+    {
+      "flavor": "Original (Gluten-free)",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Original (Vegan)",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Original",
+      "pricePerRoll": 4
+    },
+    {
+      "flavor": "Pumpkin Spice",
+      "pricePerRoll": 4.50
+    },
+    {
+      "flavor": "Caramel Pecan",
+      "pricePerRoll": 4.50
+    },
+    {
+      "flavor": "Carrot Cake",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Old Fashioned Buttermilk",
+      "pricePerRoll": 4
+    },
+    {
+      "flavor": "Strawberry Rhubarb",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Birthday Cake",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Lemon Lavender",
+      "pricePerRoll": 5
+    },
+    {
+      "flavor": "Cranberry",
+      "pricePerRoll": 4.50
+    }
+  ]
+}
