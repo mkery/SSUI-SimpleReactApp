@@ -25,22 +25,22 @@ class App extends Component {
           <StoreItem
             image= {peanutButterCookie}
             altText = "dog cookie"
-            description = "peanut butter dog cookie"
+            description = "($2/lb) peanut butter dog cookie"
           />
           <StoreItem
             image= {baconCookie}
             altText = "dog cookie"
-            description = "bacon dog cookie"
+            description = "($2/lb) bacon dog cookie"
           />
           <StoreItem
             image= {sausageCookie}
             altText = "dog cookie"
-            description = "sausage dog cookie"
+            description = "($3/lb) sausage dog cookie"
           />
           <StoreItem
             image= {peanutButterCookie}
             altText = "dog cookie"
-            description = "*diet* peanut butter dog cookie"
+            description = "($3/lb) *diet* peanut butter dog cookie"
           />
         </div>
       </div>
