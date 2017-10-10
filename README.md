@@ -16,6 +16,7 @@ This project is a starter example of what to do for SSUI HW4. See the finished r
     * In your terminal, call `npm start` With this command, your beginning React project should open up in your browser.
  
 ## Part 2: Development Fun!
+See the assignment instructions https://github.com/mkery/SSUI-Homework-4/blob/master/Assignment%204%20-%20SSUI.pdf
 
 ## Part 3: Deploying your project
 Okay, so far, you have been testing your React project locally on your machine. Problem: you's like future employers, friends, me your grader, to see your awesome app, but you do not have a server. So, once again we will be using Github pages to host our completed app.
@@ -27,5 +28,5 @@ Okay, so far, you have been testing your React project locally on your machine. 
 6. Once that's installed, add another line to your app's `package.json` file: `"deploy" : "npm run build&&gh-pages -d build"`. What this does is create a new command to build the app, and also run the github pages tool.
 7. Run in terminal: `npm run deploy`
 8. Okay! Almost there. Go back online to your Github repo, and head back to the Settings page. Look at the Github Pages box, and change the `Source` option to the branch `gh-pages`.
-:tada: Now check your github pages url for this repo. Your react app should be up and running! :tada:
+9. :tada: Now check your github pages url for this repo. Your react app should be up and running! :tada:
    
