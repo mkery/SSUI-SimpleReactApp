@@ -27,6 +27,35 @@
   z-index: -1;
 }
 
+.App-navMenu{
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+
+
+.App-navMenu-button{
+  display: inline-block;
+  float: left;
+  border: 3px solid pink;
+  background-color: orangered;
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: default;
+}
+.App-navMenu-button.active{
+  background-color: white;
+  color: #FF9999;
+}
+.App-navMenu-button:hover{
+  text-decoration: underline;
+}
+
 .App-header {
   padding: 20px;
 }
@@ -46,6 +75,13 @@
   margin-right: .4em;
 }
 
+.App-boneIcon{
+  height: 14pt;
+  width: auto;
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .App-intro {
   text-align: left;
   font-size: 14pt;
@@ -62,4 +98,15 @@
 
 .productImage{
   width: 100%;
+}
+
+.App-aboutDog{
+  width: 60%;
+  height: auto;
+}
+
+.App-aboutDog-caption{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
 }

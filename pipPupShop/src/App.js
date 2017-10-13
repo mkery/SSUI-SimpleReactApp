@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import StoreItem from './StoreItem.js';
+import Store from './Store.js';
+import About from './About.js';
 import dogCookieBackdrop from './images/dog-cookies.jpg';
 import pupIcon from './images/pupIcon.svg';
-import peanutButterCookie from './images/peanutButterCookie.jpg';
-import baconCookie from './images/baconCookie.jpg';
-import sausageCookie from './images/sausageCookie.jpg';
+import boneIcon from './images/bone.svg';
 
 class App extends Component {
   render() {
@@ -14,6 +13,11 @@ class App extends Component {
         <img src={dogCookieBackdrop} className="App-largeDogCookieImage" alt="dog eating cookies" />
         <div className = "App-background" />
         <div className = "App-content">
+          <div className = "App-navMenu">
+            <div className = "App-navMenu-button active">Shop</div>
+            <div className = "App-navMenu-button">About</div>
+            <div className = "App-navMenu-button"><img src={boneIcon} className="App-boneIcon" alt="dog bone cart" />0</div>
+          </div>
           <header className="App-header">
             <h1 className="App-title"><img src={pupIcon} className="App-pupIcon" alt="dog face" />Pip Pup Cookies</h1>
             <p className="App-intro">
@@ -22,26 +26,7 @@ class App extends Component {
                we ship across the US.
             </p>
           </header>
-          <StoreItem
-            image= {peanutButterCookie}
-            altText = "dog cookie"
-            description = "($2/lb) peanut butter dog cookie"
-          />
-          <StoreItem
-            image= {baconCookie}
-            altText = "dog cookie"
-            description = "($2/lb) bacon dog cookie"
-          />
-          <StoreItem
-            image= {sausageCookie}
-            altText = "dog cookie"
-            description = "($3/lb) sausage dog cookie"
-          />
-          <StoreItem
-            image= {peanutButterCookie}
-            altText = "dog cookie"
-            description = "($3/lb) *diet* peanut butter dog cookie"
-          />
+          <Store/>
         </div>
       </div>
     );
