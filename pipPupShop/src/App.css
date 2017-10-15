@@ -110,3 +110,13 @@
   font-size: 14pt;
   margin: auto;
 }
+
+.App-aboutUs{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
+  color: #808080;
+  font-style: italic;
+  margin-bottom: 1.5em;
+  width: 70%;
+}
