@@ -119,3 +119,31 @@
   margin-bottom: 1.5em;
   width: 70%;
 }
+
+.detailPane{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 100, 100, 0.8);
+  border-right: 3px solid black;
+  box-shadow: 2px 0px 2px #e0e0e0;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.detailPane-inner{
+  padding: 10px;
+  background-color: white;
+}
+
+.Xout{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24pt;
+  font-weight: bolder;
+  color: white;
+  cursor: default;
+}
