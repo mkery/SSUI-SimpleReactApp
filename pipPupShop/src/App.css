@@ -48,9 +48,8 @@
   margin-right: 10px;
   cursor: default;
 }
-.App-navMenu-button.active{
-  background-color: white;
-  color: #FF9999;
+.active{
+  color: white; /*#FF9999*/
 }
 .App-navMenu-button:hover{
   text-decoration: underline;
