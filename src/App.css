@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.App-largeDogCookieImage {
+  position: fixed;
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  z-index: -2;
+  top: 0px;
+  left: 0px;
+}
+
+.App-content{
+  margin-left: 30%;
+  padding-left: 20px;
+}
+
+.App-background{
+  position: fixed;
+  margin-left: 30%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  z-index: -1;
+}
+
+.App-navMenu{
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+
+
+.App-navMenu-button{
+  display: inline-block;
+  float: left;
+  border: 3px solid pink;
+  background-color: orangered;
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: default;
+}
+.active{
+  color: white; /*#FF9999*/
+}
+.App-navMenu-button:hover{
+  text-decoration: underline;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.App-title {
+  font-family: 'Kumar One Outline', cursive;
+  color: orangered;
+  font-size: 48pt;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.App-pupIcon{
+  height: 40pt;
+  width: auto;
+  display: inline-block;
+  margin-right: .4em;
+}
+
+.App-boneIcon{
+  height: 14pt;
+  width: auto;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.App-intro {
+  text-align: left;
+  font-size: 14pt;
+  margin: auto;
+}
+
+
+.productWrapper{
+  display: inline-block;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}
+
+.productImage{
+  width: 100%;
+}
+
+.App-aboutDog{
+  width: 60%;
+  height: auto;
+}
+
+.App-aboutDog-caption{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
+}
+
+.App-aboutUs{
+  text-align: center;
+  font-size: 14pt;
+  margin: auto;
+  color: #808080;
+  font-style: italic;
+  margin-bottom: 1.5em;
+  width: 70%;
+}
+
+.detailPane{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 100, 100, 0.8);
+  border-right: 3px solid black;
+  box-shadow: 2px 0px 2px #e0e0e0;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.detailPane-inner{
+  padding: 10px;
+  background-color: white;
+}
+
+.Xout{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24pt;
+  font-weight: bolder;
+  color: white;
+  cursor: default;
+}
