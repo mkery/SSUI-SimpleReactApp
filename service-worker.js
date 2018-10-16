@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/SSUI-Homework-4/precache-manifest.bca4a4c07f2394c792a1fdff6d9b032b.js"
+  "/SSUI-SimpleReactApp/precache-manifest.d50adf3d19cce58e70f5215933ee08f7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/SSUI-Homework-4/index.html", {
+workbox.routing.registerNavigationRoute("/SSUI-SimpleReactApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
